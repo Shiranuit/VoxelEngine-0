@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Interfaces">
+      <UniqueIdentifier>{ffcb0adc-e519-4798-a34e-3ac9c24d9bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Interfaces">
+      <UniqueIdentifier>{1dc358f9-de82-434a-b1f8-88724354c9c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\World">
+      <UniqueIdentifier>{746b40d6-e658-4438-a9ce-de55af9be750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\World\Chunk">
+      <UniqueIdentifier>{cf063223-0755-40df-98df-de6a2585a616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\World\Block">
+      <UniqueIdentifier>{0ffcc192-bbf3-4404-a32a-03b3ad75c44f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\World">
+      <UniqueIdentifier>{b84ad93f-d714-43f3-8f53-2f17cba74f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\World\Block">
+      <UniqueIdentifier>{ca03759a-3a84-4867-ac75-ad5554c646ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\World\Chunk">
+      <UniqueIdentifier>{b3df59ca-e702-4db7-ae37-8c3aebe354b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Mesh">
+      <UniqueIdentifier>{cbc814bf-636f-424f-90de-abb4e5adaa82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Mesh">
+      <UniqueIdentifier>{29a4b70f-21d1-4f08-96f9-816089927a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Reader">
+      <UniqueIdentifier>{e9367a54-9d8c-4ebe-9dd3-935066345caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Reader">
+      <UniqueIdentifier>{f962bb6c-33a6-4aa7-94f1-3600566463db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Shader">
+      <UniqueIdentifier>{1dcd7777-278b-4651-a043-e3981a296619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Shader">
+      <UniqueIdentifier>{c2e8f5a0-3673-465d-9dca-54929db750a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\InputHandlers">
+      <UniqueIdentifier>{549b2267-3f7a-48e9-9d96-c1708030f6a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\InputHandlers">
+      <UniqueIdentifier>{c1eac552-2de4-43a2-b6a0-7ae84e500598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Transform">
+      <UniqueIdentifier>{5c305def-5f95-496e-bafb-2634e6fe7e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Transform">
+      <UniqueIdentifier>{a8aa09aa-f36a-4d5f-a9c6-08e0eee1c69f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Renderer">
+      <UniqueIdentifier>{d6dc7202-dce6-498d-a64a-53d6f3e18c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Mesh\Chunk">
+      <UniqueIdentifier>{6d731fb5-e3a0-46f5-8f14-520ddd240dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Mesh\Chunk">
+      <UniqueIdentifier>{4217bb24-4faa-4169-bdad-9bd7b58046e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngine.h">
+      <Filter>Fichiers d%27en-tête\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>Fichiers d%27en-tête\World\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Fichiers d%27en-tête\World\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Fichiers d%27en-tête\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader.h">
+      <Filter>Fichiers d%27en-tête\Reader</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexedModel.h">
+      <Filter>Fichiers d%27en-tête\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Fichiers d%27en-tête\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardEvent.h">
+      <Filter>Fichiers d%27en-tête\InputHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseEvent.h">
+      <Filter>Fichiers d%27en-tête\InputHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Fichiers d%27en-tête\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Fichiers d%27en-tête\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicCircleRenderer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkMeshBuilder.h">
+      <Filter>Fichiers d%27en-tête\Mesh\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Fichiers d%27en-tête\World</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoise.h">
+      <Filter>Fichiers d%27en-tête\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Fichiers d%27en-tête\Shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="RPG-Project.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="IEngine.cpp">
+      <Filter>Fichiers sources\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Fichiers sources\World\Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Fichiers sources\World\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Fichiers sources\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="FileReader.cpp">
+      <Filter>Fichiers sources\Reader</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexedModel.cpp">
+      <Filter>Fichiers sources\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Fichiers sources\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardEvent.cpp">
+      <Filter>Fichiers sources\InputHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseEvent.cpp">
+      <Filter>Fichiers sources\InputHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Fichiers sources\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Fichiers sources\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicCircleRenderer.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkMeshBuilder.cpp">
+      <Filter>Fichiers sources\Mesh\Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Fichiers sources\World</Filter>
+    </ClCompile>
+    <ClCompile Include="PerlinNoise.cpp">
+      <Filter>Fichiers sources\World</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
